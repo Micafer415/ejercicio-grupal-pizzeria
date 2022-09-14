@@ -1,14 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 header {
-  .header {
-    height: 100px;
-    width: 100%;
-    padding: 0px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+  height: 100px;
+  width: 100%;
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 * {
@@ -192,4 +190,77 @@ main {
 .hero-card img:hover {
   opacity: 1;
   visibility: visible;
+}
+
+.cardconteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  background-color: #131415;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.cardconteiner div {
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  background-color: #252525;
+  border-radius: 15px;
+}
+
+.carduno .imagenuno {
+  width: 237px;
+  height: 98px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.carduno .card-info {
+  color: white;
+  margin-top: 5px;
+}
+
+.card-info {
+  margin-left: 30px;
+}
+
+.card-info p {
+  color: grey;
+  margin-top: 5px;
+}
+
+span {
+  display: flex;
+  margin-top: 5px;
+  align-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(70deg, #ffa100, #ff005c);
+  -webkit-background-clip: text;
+  color: tomato;
+}
+
+.card-info .button {
+  margin-left: 120px;
+  background: linear-gradient(70deg, #ffa100, #ff005c);
+  border-radius: 17px;
+  color: white;
+  border: none;
+  width: 85px;
+  height: 29px;
+}
+
+.button:hover {
+  color: #252525;
+}
+
+.sectionindex p {
+  font-size: 30px;
+  margin-left: 50px;
 }
