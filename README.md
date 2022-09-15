@@ -1,5 +1,6 @@
 # ejercicio-grupal-pizzeria
 
-INTEGRANTES DEL EJERCICIO: 
+INTEGRANTES DEL EJERCICIO:
 
-Micol Ariana González 
+Micol Ariana González
+Gustavo Salazar Ostos
