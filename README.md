@@ -4,4 +4,4 @@ INTEGRANTES DEL EJERCICIO:
 
 Micol Ariana González
 Gustavo Salazar Ostos
-Micaela fernandez
+Micaela fernandez Ortega
