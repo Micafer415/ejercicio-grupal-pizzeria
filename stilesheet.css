@@ -1,42 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-:root {
-  --background: #252525;
-  --primary: #ffa400;
-  --secondary: #fc2933;
-  --text-white: #ffffff;
-  --gradient: linear-gradient(
-    90deg,
-    rgba(255, 161, 0, 1) 0%,
-    rgba(251, 16, 61, 1) 100%
-  );
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
-  list-style-type: none;
-}
-
-body {
-  background-color: #252525;
-}
-
-/*RECOMENDACIONES DEL DIA*/
+/*recomendaciones del dia*/
 
 .recomendaciones-del-dia h2 {
   font: Montserrat;
-  weight: 500;
   size: 22px;
   line-height: 28.83px;
   color: #ffffff;
-  width: 278px;
-  height: 23px;
-  position: absolute;
-  left: 120px;
-}
+  margin-left: 120px;}
 
 .contenedor-recomendacion {
   display: flex;
@@ -148,8 +117,7 @@ body {
   font-size: 15px;
   line-height: 131.02%;
   color: var(--text-white);
-  position: absolute;
-  left: 120px;
+  margin-left: 120px;
 }
 .contenedor-categorias {
   display: flex;
@@ -159,9 +127,8 @@ body {
   gap: 15px;
   padding: 40px 0;
   max-width: 1200px;
-  position: absolute;
-  left: 116px;
-  right: 168px;
+  margin-left: 116px;
+  margin-right: 168px;
 }
 .categoria {
   width: 147px;

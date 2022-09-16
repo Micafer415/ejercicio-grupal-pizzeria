@@ -26,14 +26,6 @@ body {
   background-color: #252525;
 }
 
-header {
-  height: 100px;
-  width: 100%;
-  padding: 0px 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
 .logo_pizza {
   position: absolute;
@@ -197,7 +189,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   width: auto;
-  background-color: #131415;
+  background-color: #252525;
   height: 100vh;
   flex-direction: row;
 }
@@ -206,7 +198,7 @@ main {
   width: 300px;
   height: 250px;
   margin: 10px;
-  background-color: #252525;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
   border-radius: 15px;
 }
 
@@ -263,4 +255,36 @@ span {
 .sectionindex p {
   font-size: 30px;
   margin-left: 50px;
+}
+
+footer{
+  gap: 40px;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 40%;
+}
+footer a,
+footer p{
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  border:none;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+footer p{
+  margin-left: 70px;
+}
+footer span{
+  font-weight: 700;
+  color: white;
+  display: inline;
+}
+.footer-links{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
 }
